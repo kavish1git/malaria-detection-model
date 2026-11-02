@@ -1,0 +1,12 @@
+# Requirements for Malaria AI CNN Project
+tensorflow>=2.16.0
+keras>=3.0.0
+numpy>=1.26.0
+pandas>=2.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scikit-learn>=1.4.0
+scipy>=1.12.0
+pillow>=10.0.0
+streamlit>=1.30.0
+tqdm>=4.66.0

@@ -1,0 +1,27 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Dataset images (exclude raw 27k image files, but keep visualization plots in results/)
+data/cell_images/
+*.jpg
+*.jpeg
+Thumbs.db
+ehthumbs.db
+
+# Model checkpoints (optional: keep if under 100MB; malaria_cnn.keras is ~5MB so tracked or ignored as needed)
+# If git lfs or direct commit:
+# models/*.keras is ~5.1 MB, perfectly safe for GitHub (<100MB limit).
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.bak
